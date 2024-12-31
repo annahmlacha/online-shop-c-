@@ -59,7 +59,7 @@ int main() {
         Product("Headphones", 89.99, 50),
         Product("Tablet", 299.99, 15),
         Product("Smart Watch", 149.99, 30)
-        Product("Desktop"), 156.17,68)
+        Product("Desktop", 156.17,68)
     };
 
     // Create a shopping cart
@@ -69,7 +69,9 @@ int main() {
     while (true) {
         cout << "\nWelcome to the Online Store!" << endl;
         cout << "Available Products:" << endl;
-        
+        cout << "Choose your best product " << endl;
+        cout << "Thank you for shopping us, Welcome again !!!" << endl;
+
         // Display available products
         for (int i = 0; i < products.size(); i++) {
             cout << i + 1 << ". ";
